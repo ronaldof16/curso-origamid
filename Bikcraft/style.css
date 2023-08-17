@@ -2,12 +2,10 @@ body {
     background: #f7f7f7;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
-}
-
-header {
     display: grid;
-    justify-content: center;
+    justify-items: center;
     gap: 60px;
+    margin-top: 60px;
 }
 
 nav {
@@ -19,37 +17,58 @@ nav {
 .item-menu {
     text-decoration: none;
     color: #000;
+    background: #fff;
+    padding: 15px 30px;
+    border-radius: 4px;
 }
 
 main {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 40px;
+    max-width: 1000px;
     
 }
+
 .destaque {
     display: grid;
     justify-items: end;
-    align-items: center;
+    align-content: center;
     text-align: right;
-    
+    background: #fff;
+    padding: 40px;
+    position: relative;
+    gap: 20px;
+}
+
+.detalhe {
+    width: 60px;
+    height: 4px;
+    background: #ee2211;
+    position: absolute;
+    top: 30px;
+    right: -30px;
+}
+
+h1 {
+    margin: 0px;
+    font-size: 2em;
 }
 
 .informacao {
     font-size: 20px;
-    place-self: start-end;
+    margin: 0px;
 }
 
 .botao {
-   color: #fff;
-   background: #ee2211;
-   text-decoration: none;
-   padding: 10px 20px;
-   border-radius: 4px;
-   place-self: start-end;
-}
+    color: #fff;
+    background: #ee2211;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 4px;
+    
+ }
 
-img {
+.foto-bicicleta {
     max-width: 100%;
 }
 
@@ -58,7 +77,39 @@ img {
     color: #c6c6c6;
     font-weight: bold;
     text-align: right;
+    padding: 40px;
+    display: grid;
+    align-self: center;
 }
 
+.caracteristica {
+    background: #fff;
+    padding: 40px;
+}
 
+.caracteristica-item {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 10px 20px;
+    padding: 20px;
+}
+
+h2 {
+    margin: 0px;
+}
+
+.informacao-item {
+    font-size: 20px;
+    margin: 0px;
+    grid-column: 2;
+}
+
+footer {
+    background: #fff;
+    padding: 40px;
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+}
 
