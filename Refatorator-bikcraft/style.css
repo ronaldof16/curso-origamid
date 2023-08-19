@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f7f7f7;
+    margin: 0px;
+    margin-top: 3.8rem;
+    display: grid;
+    justify-items: center;
+    gap: 3.8rem;
+}
+
+.menu {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 1.3rem;
+}
+
+.item-menu {
+    font-size: 1.3rem;
+    list-style: none;
+    text-transform: uppercase;
+    background: #fff;
+    padding: 15px 30px;
+    border-radius: 4px;
+    
+}
+
+.item-menu:hover {
+    border: 2px solid red;
+}
+
+.item-menu a {
+    text-decoration: none;
+    color: #000;
+}
+
