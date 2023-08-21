@@ -70,7 +70,64 @@ main {
     
 }
 
+.botao:hover {
+    background: #900;
+}
+
 .foto-bicicleta {
     max-width: 100%;
+}
+
+.vantagens {
+    font-size: 4rem;
+    color: #c6c6c6;
+    text-transform: uppercase;
+    text-align: right;
+    display: grid;
+    align-items: center;
+    padding: 2.5rem;
+    background-image: url("./img/onda.svg");
+}
+
+.subtitulo {
+    background: #fff;
+    padding: 2.5rem;
+}
+
+.caracteristicas {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 0.6rem 1.2rem;
+    padding: 1.5rem;
+}
+
+.caracteristicas:hover {
+    border-left: 0.25rem solid #ee2211;
+}
+
+h3 {
+    margin: 0px;
+}
+
+.caracteristicas p {
+    grid-column: 2;
+    margin: 0px;
+    font-size: 1.25rem;
+}
+
+.caracteristicas:nth-child(odd) {
+    background: #f7f7f7;
+}
+
+footer {
+    width: 100%;
+}
+
+.rodape {
+    padding: 2.5rem;
+    font-size: 1.25rem;
+    margin: 0px;
+    text-align: center;
+    background: #fff;
 }
 
