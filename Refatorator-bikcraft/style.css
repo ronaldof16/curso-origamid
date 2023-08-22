@@ -21,11 +21,11 @@ body {
     background: #fff;
     padding: 1rem 2rem;
     border-radius: 4px;
-    
+    border: 2px solid transparent;
 }
 
 .item-menu:hover {
-    border: 2px solid red;
+    border-color: red;
 }
 
 .item-menu a {
@@ -56,8 +56,8 @@ main {
     width: 3.5rem;
     height: 0.25rem;
     position: absolute;
-    top: 1.5rem;
-    left: 30rem;
+    top: 2rem;
+    right: -2rem;
 }
 
 .titulo {
