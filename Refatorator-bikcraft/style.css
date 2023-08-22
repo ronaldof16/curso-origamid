@@ -47,6 +47,17 @@ main {
     justify-items: end;
     padding: 2.5rem;
     gap: 1.25rem;
+    position: relative;
+}
+
+.titulo::before {
+    content: "";
+    background: #ee2211;
+    width: 3.5rem;
+    height: 0.25rem;
+    position: absolute;
+    top: 1.5rem;
+    left: 30rem;
 }
 
 .titulo {
