@@ -1,0 +1,23 @@
+body {
+    margin: 0px;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+.item-menu a {
+    text-decoration: none;
+    color: #000;
+    font-size: 1.25rem;
+}
