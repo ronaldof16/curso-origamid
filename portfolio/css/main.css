@@ -1,0 +1,42 @@
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    gap: 100px;
+}
+
+.foto-lobo {
+    width: 360px;
+    height: 520px;
+}
+
+.titulo h1 {
+    margin: 0 auto;
+    color: #141414;
+    font-size: 4.5rem;
+    font-weight: 700;
+    line-height: 5rem;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.titulo h1::before {
+    content: "";
+    display: block;
+    width: 130px;
+    height: 100px;
+    background: url("../img/detalhe.svg") center no-repeat;
+    position: absolute;
+    top: -15px;
+    left: -40px;
+    z-index: -1;
+}
+
+.titulo p {
+    font-size: 1.5rem;
+    color: #525252;
+    margin: 0px;
+}
