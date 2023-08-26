@@ -1,0 +1,91 @@
+.experiencia {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+
+.experiencia h2 {
+    font-size: 8rem;
+    word-break: break-all;
+    text-transform: uppercase;
+    color: #E0E0E0;
+    line-height: 9rem;
+    max-width: 3ch;
+    font-weight: 700;
+    margin: 0px;
+    padding-left: 20px;
+}
+
+.apresentacao {
+    margin: 0px;
+    color: #525252;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    max-width: 44ch;
+    line-height: 2rem;
+    margin-bottom: 3rem;
+}
+
+strong {
+    color: #000;
+}
+
+.experiencia-descricao {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: #F5F5F5; 
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    bottom: 1px solid #F0F0F0;
+    padding-left: 1.5rem;  
+}
+
+.empresas-projetos {
+    position: relative;
+}
+
+.ano-trabalho {
+    color: #525252;
+    font-size: 0.875rem;
+    position: absolute;
+    left: -5.5rem;
+    top: 1.3rem;
+    display: inline-block;
+    width: 3.5rem;
+    text-align: right;
+}
+
+.empresas-projetos h3 {
+    position: relative;
+}
+
+.empresas-projetos h3::before {
+    content: "";
+    width: 0.25rem;
+    height: 1.25rem;
+    background: linear-gradient(180deg, #B6F829 0%, #67DD0A 100%);
+    display: block;
+    position: absolute;
+    left: -1.7rem;
+}
+
+.empresas-projetos p {
+    font-size: 0.875rem;
+    color: #525252;
+}
+
+.tecnologias {
+    list-style: none;
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.625rem;
+}
+
+.tecnologias li {
+    padding: 5px 10px;
+    border-radius: 5px;
+    background: #FFF;
+}
