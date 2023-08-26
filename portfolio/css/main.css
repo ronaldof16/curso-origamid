@@ -8,11 +8,6 @@ main {
     gap: 100px;
 }
 
-.foto-lobo {
-    width: 360px;
-    height: 520px;
-}
-
 .titulo h1 {
     margin: 0 auto;
     color: #141414;
@@ -39,4 +34,23 @@ main {
     font-size: 1.5rem;
     color: #525252;
     margin: 0px;
+}
+
+@media (max-width:1000px) {
+
+    .titulo h1 {
+        font-size: 3rem;
+    }
+
+    .titulo p {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width:850px) {
+    main {
+        grid-template-columns: 1fr;
+        justify-items: center;
+        gap: 0px;
+    }
 }

@@ -88,3 +88,30 @@ strong {
     border-radius: 5px;
     background: #FFF;
 }
+
+@media (max-width:850px) {
+    .experiencia {
+        grid-template-columns: 1fr;
+
+    }
+
+    .experiencia h2 {
+        word-break: normal;
+        font-size: 5rem;   
+    }
+
+    .apresentacao {
+        padding-left: 20px;
+        max-width: 100%;
+    }
+
+    .experiencia-descricao {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width:500px) {
+    .experiencia h2 {
+        font-size: 3.5rem;
+    }
+}

@@ -29,3 +29,19 @@ header {
     font-size: 1.125rem;
     padding: 10px 20px;
 }
+
+@media (max-width:850px) {
+    header {
+        flex-direction: column;
+        gap: 3rem 0px;
+    }
+
+    .menu {
+        gap: 3rem;
+    }
+
+    .item-menu a {
+        background: #f4ebeb;
+        border-radius: 0.25rem;
+    }
+}

@@ -3,7 +3,7 @@
     grid-template-columns: 1fr 1fr;
     background: #000;
     align-items: center;
-    padding: 100px 20px;
+    padding: 90px 20px;
     gap: 0px 70px;
 }
 
@@ -22,7 +22,7 @@
     display: block;
     position: absolute;
     z-index: 1;
-    top: -15.5rem;
+    top: -15rem;
 }
 
 .contato-dados h3 {
@@ -33,4 +33,41 @@
 
 .contato-dados h3 a {
     color: #FFF;
+    text-decoration: none;
+}
+
+footer {
+    color: #8F8F8F;
+    margin: 0px;
+    padding-bottom: 3rem;
+    background: #000;
+    padding-left: 1rem;
+}
+
+footer p {
+    margin: 0px;
+    padding-top: 15px;
+}
+
+@media (max-width:850px) {
+    .contato p::before {
+        right: -5rem;
+        top: -12rem;
+    } 
+}
+
+@media (max-width:600px) {
+    .contato {
+        grid-template-columns: 1fr;
+        padding: 40px 20px;
+        
+    }
+
+    .contato p::before {
+        display: none;
+    }
+
+    .contato-dados h3 {
+        font-size: 1.5rem;
+    }
 }

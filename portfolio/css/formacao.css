@@ -1,7 +1,6 @@
 .formacao {
     display: grid;
-    grid-template-columns: 1fr 2fr;
-    max-width: 1200px;
+    grid-template-columns: 1fr 2fr;   
     margin: 0 auto;
     padding: 120px 40px;
     background: #292828;  
@@ -148,5 +147,42 @@
 
 li span {
     color: #8F8F8F;
+}
+
+@media (max-width:1000px) {
+    .formacao h2 {
+        font-size: 7rem
+    }
+}
+
+@media (max-width:850px) {
+    .formacao {
+        grid-template-columns: 1fr;
+        padding: 40px 20px;
+    }
+
+    .formacao h2 {
+        word-break: normal;
+        max-width: 100%;
+        padding: 0px 20px;
+    }
+}
+
+@media (max-width:700px) {
+    .formacao h2 {
+        font-size: 6rem;
+        
+    }
+}
+
+@media (max-width:550px) {
+    .formacao h2 {
+        font-size: 3rem;
+    }
+
+    .informacao-formacao {
+        grid-template-columns: 1fr;
+        gap: 3rem 1rem;
+    }
 }
 
