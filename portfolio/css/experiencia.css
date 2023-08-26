@@ -2,8 +2,7 @@
     display: grid;
     grid-template-columns: 1fr 2fr;
     max-width: 1200px;
-    margin: 0 auto;
-    
+    margin: 0 auto;   
 }
 
 .experiencia h2 {
