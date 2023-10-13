@@ -42,7 +42,7 @@ function initAcordion() {
 initAcordion()
 
 function initScrollSuave() {
-    let linksInternos = document.querySelectorAll(".js-menu a[href^='#");
+    let linksInternos = document.querySelectorAll(".js-menu a[href^='#']");
 
     function scrollToSection(event) {
         event.preventDefault();
