@@ -1,10 +1,12 @@
 import './App.css';
-import ExJsx from './componentes/ExJsx';
+//import ExJsx from './componentes/ExJsx';
+import ExJsxArray from './componentes/ExJsxArray';
 
 function App() {
   return (
     <div className="App">
-      <ExJsx />
+      {/* <ExJsx /> */}
+      <ExJsxArray />
     </div>
   );
 }
