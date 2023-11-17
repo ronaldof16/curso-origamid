@@ -1,5 +1,6 @@
 import './App.css';
-import ExUseRef from './use-ref/ExUseRef';
+import ExFormsInput from './forms-input/ExFormsInput';
+//import ExUseRef from './use-ref/ExUseRef';
 //import UseEffect from './use-effetc/UseEffect';
 //import ExComponentes from './componentes/ExComponentes';
 //import ExJsx from './componentes/ExJsx';
@@ -12,7 +13,8 @@ function App() {
       {/* <ExJsxArray /> */}
       {/* <ExComponentes /> */}
       {/* <UseEffect /> */}
-      <ExUseRef />
+      {/* <ExUseRef /> */}
+      <ExFormsInput />
     </div>
   );
 }
