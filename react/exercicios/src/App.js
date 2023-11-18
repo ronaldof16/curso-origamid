@@ -1,5 +1,6 @@
 import './App.css';
-import Radio from './forms-input/Radio';
+import Checkbox from './forms-input/Checkbox';
+//import Radio from './forms-input/Radio';
 //import Select from './forms-input/Select';
 //import ExFormsInput from './forms-input/ExFormsInput';
 //import ExUseRef from './use-ref/ExUseRef';
@@ -18,7 +19,8 @@ function App() {
       {/* <ExUseRef /> */}
       {/* <ExFormsInput /> */}
       {/* <Select /> */}
-      <Radio />
+      {/* <Radio /> */}
+      <Checkbox />
     </div>
   );
 }
