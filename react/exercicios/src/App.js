@@ -1,5 +1,6 @@
 import './App.css';
-import Select from './forms-input/Select';
+import Radio from './forms-input/Radio';
+//import Select from './forms-input/Select';
 //import ExFormsInput from './forms-input/ExFormsInput';
 //import ExUseRef from './use-ref/ExUseRef';
 //import UseEffect from './use-effetc/UseEffect';
@@ -16,7 +17,8 @@ function App() {
       {/* <UseEffect /> */}
       {/* <ExUseRef /> */}
       {/* <ExFormsInput /> */}
-      <Select />
+      {/* <Select /> */}
+      <Radio />
     </div>
   );
 }
