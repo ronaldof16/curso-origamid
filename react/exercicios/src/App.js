@@ -1,5 +1,6 @@
 import './App.css';
-import DesafioCheckbox from './forms-input/DesafioCheckbox';
+import Validacao from './validacao-formulario/Validacao';
+//import DesafioCheckbox from './forms-input/DesafioCheckbox';
 //import Checkbox from './forms-input/Checkbox';
 //import Radio from './forms-input/Radio';
 //import Select from './forms-input/Select';
@@ -22,7 +23,8 @@ function App() {
       {/* <Select /> */}
       {/* <Radio /> */}
       {/* <Checkbox /> */}
-      <DesafioCheckbox />
+      {/* <DesafioCheckbox /> */}
+      <Validacao />
     </div>
   );
 }
