@@ -6,6 +6,7 @@ import Header from './componentes/Header';
 import PaginaNaoEncontrada from './componentes/PaginaNaoEncontrada';
 import './App.css'
 import Login from './componentes/Login';
+import Produto from './componentes/Produto';
 
 
 
@@ -18,6 +19,7 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='sobre' element={<Sobre />} />
         <Route path='login' element={<Login />}/>
+        <Route path='produto/:id' element={<Produto />} />
         <Route path='*' element={<PaginaNaoEncontrada />} />
       </Routes> 
     </BrowserRouter >
