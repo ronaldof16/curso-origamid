@@ -1,10 +1,13 @@
-import Produto from "./usestate/Produto";
+//import Produto from "./usestate/Produto";
+
+import Principal from "./useeffect/Principal";
 
 
 function App() {
   return (
     <div className="App">
-      <Produto />
+      { /*<Produto />*/ }
+      <Principal />
     </div>
   );
 }
