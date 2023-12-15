@@ -2,8 +2,9 @@
 //import Principal from "./useeffect/Principal";
 //import Formulario from "./formulario/Formulario";
 //import Formulario02 from "./formulario02/Formulario02";
+//import Checked from "./checked/Checked";
 
-import Checked from "./checked/Checked";
+import Desafio from "./desafioForm/Desafio";
 
 
 function App() {
@@ -13,7 +14,8 @@ function App() {
       { /*<Principal />*/ }
       { /*<Formulario />*/ }
       { /*<Formulario02 />*/ }
-      <Checked />
+      { /*<Checked /> */}
+      <Desafio />
     </div>
   );
 }
